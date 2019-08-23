@@ -7,7 +7,7 @@ export default class Token {
     //jwt加密方式
     static jwtSecret: string = 'jwtSecret';
     //token过期时间
-    static tokenExpiresTime: string = '25s';
+    static tokenExpiresTime: string = '5s';
 
     //设置token
     static setToken(userId: any, username: any): any {

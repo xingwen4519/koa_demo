@@ -1,6 +1,5 @@
 import Koa from 'koa';
 import KoaRouter from 'koa-router';
-import JsonWebToken from "jsonwebtoken";
 import KoaJwt from "koa-jwt";
 import KoaBody from "koa-body";
 
